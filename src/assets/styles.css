@@ -1,0 +1,148 @@
+/* global-stuff on every page */
+body {
+    margin:0;
+    background: linear-gradient(270deg, rgba(32, 160, 188, 0.65) 0%, rgba(178, 141, 193, 0.65) 100%);
+    }
+    #Logo img {
+        width: 40px;
+        height: 40px;
+        margin-top: -2px;
+        margin-bottom: 5px;
+        margin-left: 2px;
+        font-family:'Lucida Grande' ;
+        position: sticky;
+    }
+    
+/* homepage*/
+h1 {
+    font-family: 'Audiowide';
+    color: #ffffff;
+    font-size: 15vw;
+    margin:0;
+    position:absolute;
+    width: 100%;
+    left:0;
+    text-align: center;
+}
+
+#titlerectangle {
+    border: 3vw solid #EF8D34 ;
+    border-right: none;
+    width:80vw;
+    height: 20vw;
+}
+
+#title {
+    width:100%;
+    display: flex;
+}
+
+#halfcircle {
+    width: 20vw;
+    height: 40vw;
+    background-color: #EF8D34;
+    border-radius: 0 20vw 20vw 0;
+}
+
+#Where {
+    color: white;
+    font-family: Orbitron;
+    font-style: regular;
+    font-size: 40px;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    text-align:center;
+    position: relative;
+    top: 100px;
+}
+
+#img1 {
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    z-index:-3;
+}
+
+#rectangle {
+    position: relative;
+    top: 200px;
+    left: -200px;
+    z-index: 3;
+}
+
+#para2 {
+    font-family: 'Lucida Grande';
+    width: 100%;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 150px;
+
+}
+
+#It {
+    color: #EF8D34;
+    font-family: Orbitron;
+    font-style: regular;
+    font-size: 50px;
+    margin:0;
+    position: absolute;
+  top:10px;
+  right:-130px;
+}
+
+#para1 {
+    font-family: 'Lucida Grande';
+    color:  #EF8D34;
+   }
+
+#YOU {
+    color:white;
+}
+
+#beginswithyou{
+display: flex;
+
+}
+#bwyimage{
+    background-image: url(mountain-climber.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:right ;
+    flex-grow: 1;
+    margin-top:70px
+}
+#bwycaption{
+    position: relative;
+    background-color: white;
+    max-width: 300px;
+    padding: 60px;
+}
+#bwyrect{
+    background-color: #EF8D34;
+    flex-basis: 40px;
+    margin-top: 70px;
+}
+#beginswithyou img{
+    transform: scaleX(-1);
+}
+
+/*upperbod*/
+# {
+   color:white;
+   display: contents;
+   position: absolute;
+   top: 0px;
+   box-align: end;
+}
+
+
+@media (min-wid:640px)
+ title {
+    font-size:18px;
+ }
+ titlerectangle {
+    width:60vw;
+    height: 10vw;
+ }
