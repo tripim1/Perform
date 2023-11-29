@@ -3,21 +3,28 @@ body {
     margin:0;
     background: linear-gradient(270deg, rgba(32, 160, 188, 0.65) 0%, rgba(178, 141, 193, 0.65) 100%);
     }
+    #UpperBod{
+        color:white
+    }
+    #LowerBod{
+        color:white
+    }
+    #NotJustForm{
+        color:white
+    }
     #Logo img {
         width: 40px;
         height: 40px;
         margin-top: 5px;
         margin-bottom: 5px;
         margin-left: 5px;
-        font-family:'Lucida Grande' ;
         position: sticky;
     }
-    
 /* homepage*/
 h1 {
-    font-family: 'Audiowide';
+    font-family :Georgia ;
     color: #ffffff;
-    font-size: 17.5vw;
+    font-size: 16vw;
     margin:0;
     position:absolute;
     width: 100%;
@@ -129,20 +136,14 @@ display: flex;
 }
 
 /*upperbod*/
-# {
-   color:white;
-   display: contents;
-   position: absolute;
-   top: 0px;
-   box-align: end;
+
+/*lowerbod*/
+/*NotJustForm*/
+#Toimprove{
+    color:white;
 }
-
-
-@media (min-wid:640px)
- title {
-    font-size:18px;
- }
- titlerectangle {
-    width:60vw;
-    height: 10vw;
- }
+#Everytime{
+    color:white;
+    font-family:
+}
+ 
