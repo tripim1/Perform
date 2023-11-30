@@ -20,6 +20,10 @@ body {
         margin-left: 5px;
         position: sticky;
     }
+
+
+
+
 /* homepage*/
 h1 {
     font-family :'Audiowide' ;
@@ -135,25 +139,56 @@ display: flex;
     transform: scaleX(-1);
 }
 
+
+
+
 /*upperbod*/
+.title1 {
+    color: white;
+    text-align: end;
+    writing-mode: vertical-rl;
+    font-size: 70px;
+    text-orientation: upright;
+    position: relative;
+}
+#leftrect {
+    background-color: #EF8D34;
+    width: 75px;
+    height: 1000px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+
+
+
+
 
 /*lowerbod*/
 .title2 {
     color: white;
     text-align: end;
     writing-mode: vertical-rl;
-    font-size: 80px;
+    font-size: 70px;
     text-orientation: upright;
+    position: relative;
 }
-#leftrect {
-    color: orange;
-    max-height: 100px;
-    max-width: 30%;
-}
-#Quads {
-    margin-top: ;
-}
+
+
+
+
+
+
 /*NotJustForm*/
+.title3 {
+    color: white;
+    text-align: end;
+    writing-mode: vertical-rl;
+    font-size: 70px;
+    text-orientation: upright;
+    position: relative;
+}
+
 #Toimprove{
     color:white;
 }
