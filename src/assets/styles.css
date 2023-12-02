@@ -3,8 +3,17 @@ body {
     margin:0;
     background: linear-gradient(270deg, rgba(32, 160, 188, 0.65) 0%, rgba(178, 141, 193, 0.65) 100%);
     }
+    #Logo img {
+        width: 40px;
+        height: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
     #UpperBod{
-        color:white
+        color:white;
+       align-items:baseline;
+       text-align: end;
     }
     #LowerBod{
         color:white
@@ -12,14 +21,7 @@ body {
     #NotJustForm{
         color:white
     }
-    #Logo img {
-        width: 40px;
-        height: 40px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 5px;
-        position: sticky;
-    }
+   
 
 
 
@@ -145,20 +147,17 @@ display: flex;
 /*upperbod*/
 .title1 {
     color: white;
-    text-align: end;
+    text-align:end;
     writing-mode: vertical-rl;
     font-size: 70px;
     text-orientation: upright;
     position: relative;
-}
-#leftrect {
     background-color: #EF8D34;
-    width: 75px;
-    height: 1000px;
-    margin-right: 0px;
-    margin-left: auto;
+    width: 10%;
 }
-
+#pagetitle{
+    max-width: 100%;
+}
 
 
 
@@ -172,7 +171,13 @@ display: flex;
     font-size: 70px;
     text-orientation: upright;
     position: relative;
+    background-color: #EF8D34;
+    width: 10%;
 }
+#pagetitle{
+    max-width: 100%;
+}
+
 
 
 
@@ -187,6 +192,12 @@ display: flex;
     font-size: 70px;
     text-orientation: upright;
     position: relative;
+    background-color: #EF8D34;
+    width: 10%;
 }
+#pagetitle{
+    max-width: 100%;
+}
+
 
  
