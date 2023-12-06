@@ -1,6 +1,6 @@
 :root {
     --header-height: 130px;
-    --menu-bg: #9ae9cf;
+    --menu-bg: #e9c49a00;
 }
 
 body {
@@ -28,12 +28,13 @@ header img {
 nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     position: absolute;
     top: var(--header-height);
-    left: 0;
+    left: -47px;
     width: 100%;
     height: calc(100vh - 130px);
-    background: var(--menu-bg);
+    background: linear-gradient(270deg, rgba(32, 160, 188, 1) 0%, rgba(178, 141, 193, 1) 100%);
 }
 
 nav a {
@@ -44,9 +45,16 @@ nav a {
 
 .btn-toggle-menu {
     visibility: visible;
-    margin: 20px;
+    margin: 0;
     border: 0;
     background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 1px;
+}
+
+.btn-toggle-menu svg {
+    fill: #fff;
 }
 
 .main-nav-hidden {
@@ -58,8 +66,9 @@ nav a {
     nav {
         flex-direction: row;
         height: var(--header-height);
-        align-items: center;
-        padding-right:20px;
+        padding-right:65px;
+        padding-top: 20px;
+        left: 0px;
     }
 
     nav a {
@@ -72,6 +81,10 @@ nav a {
         justify-content: flex-end;
         position: static;
         width: 100%;
+    }
+
+    nav {
+        background: transparent;
     }
 
     main {
