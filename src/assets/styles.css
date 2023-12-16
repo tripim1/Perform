@@ -19,6 +19,7 @@ body {
     }
     #LowerBod{
         color:white
+        
     }
     #NotJustForm{
         color:white
@@ -58,6 +59,15 @@ body {
         border: 3px solid clear; 
         margin-left: 20px;
         
+    }
+    #musclegroup {
+        font-size: 72px;
+        text-align: center;
+        margin-top:75px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    #excersize{
+        font-size: 30px;
     }
 
 
@@ -198,7 +208,14 @@ display: flex;
 }
 #img2 {
     width: 50%;
-  
+}
+#img5 {
+    width: 35%;
+
+}
+#chestexcersize {
+    text-align: center;
+    font-size: 30px;
 }
 
 
@@ -233,6 +250,14 @@ display: flex;
     width: 50%;
   
 }
+#img4 {
+    width: 35%;
+}
+#quadexcersize {
+    text-align: center;
+    font-size: 30px;
+}
+
 
 
 
