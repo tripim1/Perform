@@ -120,8 +120,9 @@ h1 {
     height:35%;
     align-items: center;
     position: absolute;
-    top: 350px;
+    top: 440px;
     z-index:-3;
+    transform: scaleX(-1);
 }
 
 #rectangle {
@@ -144,12 +145,11 @@ h1 {
 #It {
     color: #EF8D34;
     font-family: Orbitron;
-    font-style: regular;
-    font-size: 41px;
+    font-size: 30px;
     margin:0;
     position: absolute;
     top:10px;
-    right:-130px;
+    right:-85px;
 }
 
 #para1 {
@@ -188,7 +188,7 @@ display: flex;
     transform: scaleX(-1);
 }
 #Quote{
-    
+    position: absolute;
 }
 
 
