@@ -187,6 +187,9 @@ display: flex;
 #beginswithyou img{
     transform: scaleX(-1);
 }
+#Quote{
+    
+}
 
 
 
@@ -304,5 +307,8 @@ padding-right: 200px;
     padding-right: 200px;
 }
 #halfcircle2 {
-    width: 1000%;
+    width: 20vw;
+    height: 40vw;
+    background-color: #B28DC1;
+    border-radius: 0 20vw 20vw 0;
 }
