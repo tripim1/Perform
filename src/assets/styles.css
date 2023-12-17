@@ -199,11 +199,12 @@ line-height: normal;
 
 #img7{
     float: right;
-    width:400px
+    width:500px
 }
 #img8{
-    width:400px
+    width:300px;
     position:absolute;
+    margin-top: 357px;
 }
 
 
