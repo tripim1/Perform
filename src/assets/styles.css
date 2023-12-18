@@ -321,10 +321,13 @@ padding-right: 200px;
     font-size: 25px;
     padding-left: 200px;
     padding-right: 200px;
+    position: absolute;
+    margin-top: -100px;
 }
 #halfcircle2 {
-    width: 20vw;
-    height: 40vw;
+    width: 60vw;
+    height: 60vw;
     background-color: #B28DC1;
     border-radius: 0 20vw 20vw 0;
+    margin-top: -100px;
 }
