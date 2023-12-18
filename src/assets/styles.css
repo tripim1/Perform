@@ -131,16 +131,6 @@ h1 {
     z-index: 3;
 }
 
-#para2 {
-   
-    width: 100%;
-    color: white;
-    text-align: left;
-    position: relative;
-    top: 150px;
-
-}
-
 #It {
     color: #EF8D34;
     font-family: Orbitron;
@@ -199,14 +189,24 @@ line-height: normal;
 margin-top: 300px;
 }
 
-#img7{
+#Squater{
     float: right;
     width:400px;
 }
-#img8{
+#Lunger{
     width:300px;
     position:absolute;
-    margin-top: 357px;
+    margin-top: 200px;
+}
+
+#para2 {
+   
+    width: 100%;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 400px;
+
 }
 
 
