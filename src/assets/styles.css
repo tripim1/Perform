@@ -310,24 +310,24 @@ margin-top: 300px;
     max-width: 100%;
 }
 #img6 {
-    width: 100%;
+    width: 1137px;
 }
 #toimprove {
 font-size: 25px;
-padding-left: 200px;
-padding-right: 200px;
+padding-left: 72px;
+padding-right: 90px;
 }
 #Everytime {
     font-size: 25px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 75px;
+    padding-right: 393px;
     position: absolute;
-    margin-top: -100px;
+    margin-top: -200px 
 }
 #halfcircle2 {
-    width: 60vw;
+    width: 40vw;
     height: 60vw;
     background-color: #B28DC1;
-    border-radius: 0 20vw 20vw 0;
-    margin-top: -100px;
+    border-radius: 0 60vw 60vw 0;
+    margin-top: -224px;
 }
