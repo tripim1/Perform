@@ -3,7 +3,7 @@ body {
     font-family: 'Lucida Grande', sans-serif;
     color: white;
     margin:0;
-    background: linear-gradient(270deg, rgba(32, 160, 188, 0.65) 0%, rgba(178, 141, 193, 0.65) 100%);
+    background: linear-gradient(270deg, #20a0bca6 0%, rgba(178, 141, 193, 0.65) 100%);
     min-width:750px;
 }
 
@@ -200,10 +200,8 @@ margin-top: 300px;
 #para2 {
     color: white;
     position: relative;
-    top: 400px;
+    top: 600px;
     padding-left: 61px;
-    min-width: 100vw;
-    min-height:100px;
 
 }
 
