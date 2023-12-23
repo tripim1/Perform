@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;500&display=swap');
+
 /* global-stuff on every page */
 body {
     font-family: 'Lucida Grande', sans-serif;
@@ -5,7 +7,7 @@ body {
     margin:0;
     background: linear-gradient(270deg, #20a0bca6 0%, rgba(178, 141, 193, 0.65) 100%);
     min-width:750px;
-}
+    }
 
     #Logo img {
         width: 40px;
@@ -66,7 +68,7 @@ body {
         text-align: center;
         margin-top:75px;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        font-family: orbitron;
+        font-family: 'Orbitron',sans-serif;
     }
     #excersize{
         font-size: 30px;
@@ -75,7 +77,7 @@ body {
 
 /* homepage*/
 h1 {
-    font-family :'Audiowide' ;
+    font-family :'Audiowide',sans-serif ;
     color: #ffffff;
     font-size: 16vw;
     margin:0;
@@ -106,7 +108,7 @@ h1 {
 
 #Where {
     color: white;
-    font-family: Orbitron;
+    font-family: 'Orbitron',sans-serif;
     font-style: regular;
     font-size: 40px;
     letter-spacing: 1px;
@@ -134,7 +136,7 @@ h1 {
 
 #It {
     color: #EF8D34;
-    font-family: Orbitron;
+    font-family: 'Orbitron',sans-serif;
     font-size: 30px;
     margin:0;
     position: absolute;
@@ -182,7 +184,7 @@ display: flex;
 color: #FFF;
 text-align: center;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-font-family: Orbitron;
+font-family: 'Orbitron',sans-serif;
 font-size: 35px;
 margin-top: 300px;
 }
