@@ -1,3 +1,10 @@
+/* how i fixed your google fonts
+- go to https://fonts.google.com/ and select all the fonts you want, clicking the '+' icon to add them to your 'basket'
+- click the basket icon (top right corner) and scroll down to 'Use on the web'
+- there are two ways to load them - I used the second ('@import') and copied the @import statement into this CSS file.
+- The other option gives you a few HTML tags that you would place into your <head> element.
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400;500&display=swap');
 
 /* global-stuff on every page */
