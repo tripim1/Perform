@@ -14,7 +14,8 @@ body {
     margin:0;
     background: linear-gradient(270deg, #20a0bca6 0%, rgba(178, 141, 193, 0.65) 100%);
     min-width:750px;
-    }
+    position: relative;
+}
 
     #Logo img {
         width: 40px;
@@ -36,7 +37,22 @@ body {
     }
 
     main {
-        position: relative
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+
+.upper, .lower{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+
+
+     .upper img, .lower img{
+        max-width: 500px;
+
     }
 
     #pagetitle {
@@ -292,13 +308,13 @@ margin-top: 400px;
 
 /*NotJustForm*/
 .whiterectangle{
-    width: 100%;
+    width: 120vw;
     height: 10px;
     background: white;
     position: absolute;
     top: -69px;
-    border: 3px solid clear; 
-    margin-left: 20px;
+    left: 0;
+    margin-left: -237px;
 }
 .title3 {
     color: white;
